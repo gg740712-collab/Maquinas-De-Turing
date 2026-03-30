@@ -10,6 +10,8 @@ Una máquina de Turing es un modelo matemático fundamental en la computación, 
 ## 🌐 ¿Dónde puedo probalo on-line?
 [Haz clic aquí para abrir la demo](http://maquinas-de-turing-turing-tmluvi-baea7e-144-225-147-9.traefik.me/)
 
+En el archivo GUIDE.md obtendrás información paso a paso de como usarlo.
+
 ## 🎨 Características principales
 - **Interfaz retro y visual**: Inspirada en los viejos sistemas, con una estética atractiva y clara.
 - **Editor de programas**: Crea, edita y guarda tus propias máquinas de Turing.
