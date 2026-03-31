@@ -10,8 +10,7 @@ Una máquina de Turing es un modelo matemático fundamental en la computación, 
 ## 🌐 ¿Dónde puedo probalo on-line?
 - [Haz clic aquí para abrir la demo](http://maquinas-de-turing-turing-tmluvi-baea7e-144-225-147-9.traefik.me/)  
 - [Canal de YouTube con ejecución de algunas máquinas](https://www.youtube.com/@ass-j4j)  
-
-En el archivo GUIDE.md obtendrás información paso a paso de como usarlo.
+- En el archivo GUIDE.md obtendrás información paso a paso de como usarlo.  
 
 ## 🎨 Características principales
 - **Interfaz retro y visual**: Inspirada en los viejos sistemas, con una estética atractiva y clara.
@@ -31,7 +30,7 @@ En el archivo GUIDE.md obtendrás información paso a paso de como usarlo.
    ```
 3. **Abre tu navegador** y visita [http://localhost:3000](http://localhost:3000)
 4. **Edita o crea tu máquina** usando la tabla de estados.
-5. **Configura la cinta** haciendo clic en las celdas para cambiar su valor.
+5. **Configura la cinta** haciendo clic en las celdas para cambiar su valor. Haz clic botón izquierdo para cambiar la posicion del cabezal de la cinta.  
 6. **Ejecuta la simulación** usando los botones de control (paso, correr, pausar, reiniciar).
 
 ## 📁 Estructura del proyecto
