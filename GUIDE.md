@@ -78,3 +78,24 @@ Definición: El juego del Busy Beaver fue introducido en 1962 por Tibor Radó. C
 - Aunque se puede calcular para valores pequeños de estados, rápidamente se vuelve imposible de determinar.  
 - Es importante porque demuestra que no todo problema tiene solución algorítmica, incluso en un modelo tan básico como la máquina de Turing.
 
+## Busy Beaver conocidos
+
+Los busy beaver que imprime la mayor cantidad de "1" conocidos son:
+
+- 1 estado: Imprime 1 solo "1" antes de detenerse.  
+- 2 estados: Imprime 4 símbolos "1".  
+- 3 estados: Imprime 6 símbolos "1".  
+- 4 estados: Imprime 13 símbolos "1".  
+- 5 estados: Recientemente se ha demostrado que el valor máximo es 4098 símbolos "1".  
+- 6 estados: No se conoce el valor exacto, pero se sabe que es mayor a  1.29 x 10**895  
+
+# Máquinas disponibles en esta aplicación:
+
+- copiar.json Copia una tira de "1" consecutivos  
+- multiplicar.json multiplica dos tiras de unos separadas por un espacio  
+- ncuadrado.json eleva al cuadrado una tira de unos
+- busyBeaver-2.json Imprime 4 símbolos "1".  
+- busyBeaver-3.json: Imprime 6 símbolos "1".  
+- busyBeaver-4.json: Imprime 13 símbolos "1".  
+- bb501.json: imprime 501 "1", (no es el maximo conocido de 4098)
+ 
