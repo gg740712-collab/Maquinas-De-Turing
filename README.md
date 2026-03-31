@@ -8,8 +8,8 @@ Este proyecto es un emulador visual e interactivo de máquinas de Turing, diseñ
 Una máquina de Turing es un modelo matemático fundamental en la computación, capaz de ejecutar cualquier algoritmo. Es ideal para aprender sobre lógica, autómatas y los límites de la computación.
 
 ## 🌐 ¿Dónde puedo probalo on-line?
-[Haz clic aquí para abrir la demo](http://maquinas-de-turing-turing-tmluvi-baea7e-144-225-147-9.traefik.me/)
-[Canal de YouTube con ejecución de algunas máquinas](https://www.youtube.com/@ass-j4j)
+- [Haz clic aquí para abrir la demo](http://maquinas-de-turing-turing-tmluvi-baea7e-144-225-147-9.traefik.me/)  
+- [Canal de YouTube con ejecución de algunas máquinas](https://www.youtube.com/@ass-j4j)  
 
 En el archivo GUIDE.md obtendrás información paso a paso de como usarlo.
 
