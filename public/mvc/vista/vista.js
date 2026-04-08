@@ -111,18 +111,15 @@ obtener_estado();
 
 //Grabar y mover cabezal
 function grabarYmover(escritura,direccion){
-  //console.log(typeof escritura,escritura);
   let elemento = document.getElementById(posicionDelCabezal.toString());
   elemento.classList.remove("tape-head");
   
   if (escritura === "0"){
-    //console.log('por 0');
     elemento.classList.remove("value-1");
     elemento.classList.add("value-0");
     elemento.textContent = escritura;
   }
   if (escritura === "1"){
-    //console.log('por 1');
     elemento.classList.remove("value-0");
     elemento.classList.add("value-1");
     elemento.textContent = escritura;
@@ -192,8 +189,7 @@ function colorear(filaNumero) {
     // Colorear solo la fila deseada
     const columnas = filas[filaNumero].getElementsByTagName("td");
     let elem = document.getElementsByClassName("tape-head")[0].innerHTML;
-    //console.log('elem ',elem);
-
+    
     if (elem==0){
         columnas[1].style.backgroundColor = "#add8e6";
         columnas[2].style.backgroundColor = "#add8e6";
@@ -228,9 +224,19 @@ function applyTheme(theme) {
   if (theme === 'dark') {
     body.classList.add('dark-mode');
     themeButton.textContent = '☀️ Modo claro';
+    document.documentElement.style.setProperty('--color-0', '#2a2a2a');
+    document.documentElement.style.setProperty('--color-1', '#4a90e2');
+
+    if (colorPicker0) colorPicker0.value = '#2a2a2a';
+    if (colorPicker1) colorPicker1.value = '#4a90e2';
   } else {
     body.classList.remove('dark-mode');
     themeButton.textContent = '🌙 Modo oscuro';
+    document.documentElement.style.setProperty('--color-0', '#e0e0e0');
+    document.documentElement.style.setProperty('--color-1', '#4a90e2');
+
+    if (colorPicker0) colorPicker0.value = '#e0e0e0';
+    if (colorPicker1) colorPicker1.value = '#4a90e2';
   }
 
   localStorage.setItem('tm_theme', theme);

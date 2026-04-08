@@ -311,12 +311,13 @@
     }
 
     body.dark-mode .tape-cell.value-0 {
-      background-color: #2a2a2a;
+      background-color: var(--color-0);
+      color: inherit;
     }
 
     body.dark-mode .tape-cell.value-1 {
-      background-color: #4b8cd1;
-      color: #ffffff;
+      background-color: var(--color-1);
+      color: inherit;
     }
 
     body.dark-mode .notification {
